@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "documentDB",
+      "name": "inputDocument",
+      "databaseName": "Ratings",
+      "collectionName": "Ratings",
+      "sqlQuery": "SELECT * FROM Ratings r WHERE r.userId = {userId}",
+      "connection": "h3rating_DOCUMENTDB",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

@@ -1,0 +1,21 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "GitHub",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "WEBSITE_RUN_FROM_PACKAGE": "1",
+    "REMOTEDEBUGGINGVERSION": "11.0.611103.400",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=getratingsv1;AccountKey=BE+koW1oRU1RygW8tsqv1jBaYzhitketHdlvLFmTCC9LhWVjWDYRb+WD6rqOulTBsn+QOagloyGr8xDTZIa85w==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=getratingsv1;AccountKey=BE+koW1oRU1RygW8tsqv1jBaYzhitketHdlvLFmTCC9LhWVjWDYRb+WD6rqOulTBsn+QOagloyGr8xDTZIa85w==",
+    "WEBSITE_CONTENTSHARE": "getratingsv1-content",
+    "h3rating_DOCUMENTDB": "AccountEndpoint=https://h3rating.documents.azure.com:443/;AccountKey=kOKILxstRhMlG3kXSSxZkUEHRikmphuwbRwkXBnmXf9x4Klptekzm3igWgPY1Fe2YkSa0RZHOSPZng7l5bFEWw==;",
+    "WEBSITE_AUTH_AUTO_AAD": "False",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_SITE_NAME": "GetRatingsV1",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=getratingsv1;AccountKey=BE+koW1oRU1RygW8tsqv1jBaYzhitketHdlvLFmTCC9LhWVjWDYRb+WD6rqOulTBsn+QOagloyGr8xDTZIa85w=="
+  }
+}
